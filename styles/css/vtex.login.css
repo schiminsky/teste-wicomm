@@ -1,6 +1,13 @@
-.box .contentContainer .content--loginOptions .contentForm .loginOptionsContainer .options .formTitle {
-  font-size: 16px;
+.container :global(.vtex-button__label) {
+  width: auto;
+  margin: 0;
+  padding: 0;
 }
-.box .contentContainer .content--loginOptions .contentForm .loginOptionsContainer .options .optionsList .optionsListItem .button :global(.vtex-button) :global(.vtex-button__label):nth-child {
+.container :global(.vtex-button__label) .label {
   font-size: 0;
+  content: "";
+  background-image: url("https://i.ibb.co/KxcPMqr4/my-account-header.png");
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
 }

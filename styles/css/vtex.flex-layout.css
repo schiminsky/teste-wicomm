@@ -32,4 +32,5 @@
 }
 .flexRow--header-icons .flexRowContent {
   display: flex;
+  gap: 15px;
 }

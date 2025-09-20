@@ -12,6 +12,15 @@
   justify-content: center;
   align-items: center;
 }
+.logoContainer--whilist-header {
+  padding: 0;
+  min-width: auto;
+  display: flex;
+  width: 25px;
+}
+.logoContainer--whilist-header .logoImage {
+  width: 25px;
+}
 
 .searchBarContainer .searchBarInnerContainer--searchbar-header {
   width: 250px;

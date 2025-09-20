@@ -1,15 +1,16 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      // "flex-layout.row#blackbar-home"
+      // "flex-layout.row#tab-home-1",
+      // "flex-layout.row#slider-discover-home",
+      // "flex-layout.row#tab-home-2",
+      // "flex-layout.row#our-cause-home",
+      // "flex-layout.row#gift-items-home",
+      // "flex-layout.row#about-us-home",
+      // "flex-layout.row#category-home-1",
+      // "flex-layout.row#category-home-2",
+      // "flex-layout.row#blog-posts-home"
     ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "teste",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
   }
 }

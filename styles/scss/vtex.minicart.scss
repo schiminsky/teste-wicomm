@@ -1,0 +1,22 @@
+.minicartWrapperContainer {
+  .minicartIconContainer {
+    &::after {
+      content: "";
+      width: 25px;
+      background-image: url("https://i.ibb.co/qMKCMMd9/minicart-header.png");
+      background-repeat: no-repeat;
+      display: flex;
+      height: 25px;
+      position: relative;
+      bottom: 10px;
+    }
+
+    .cartIcon {
+      width: 0;
+    }
+  }
+
+  :global(.vtex-button__label) {
+    padding: 0;
+  }
+}
