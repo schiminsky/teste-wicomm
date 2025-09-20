@@ -1,0 +1,6 @@
+.box .contentContainer .content--loginOptions .contentForm .loginOptionsContainer .options .formTitle {
+  font-size: 16px;
+}
+.box .contentContainer .content--loginOptions .contentForm .loginOptionsContainer .options .optionsList .optionsListItem .button :global(.vtex-button) :global(.vtex-button__label):nth-child {
+  font-size: 0;
+}

@@ -1,0 +1,13 @@
+.slide .sliderTrackContainer--topbar-header {
+  height: 36px;
+}
+.slide .sliderTrackContainer .slideChildrenContainer--topbar-header {
+  height: 36px;
+}
+.slide .sliderLayoutContainer .sliderArrows--topbar-header {
+  width: 70%;
+}
+.slide .sliderLayoutContainer .sliderArrows--topbar-header .caretIcon {
+  color: #fff;
+  height: 11px;
+}
