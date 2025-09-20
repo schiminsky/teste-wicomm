@@ -50,3 +50,5 @@ styles/scss/*.css.map
 
 # Ignore Lighthouse Folder
 .lighthouseci
+.gitignore:Zone.Identifier
+*.Identifier
