@@ -1,0 +1,197 @@
+{
+  "header": {
+    "blocks": ["header-layout.desktop"]
+  },
+  "header.full": {
+    "blocks": ["header-layout.desktop"]
+  },
+  "header-layout.desktop": {
+    "children": [
+      "sticky-layout#desktop"
+    ]
+  },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header"
+    },
+    "children": ["flex-layout.row#topbar-header-desk", "flex-layout.row#header-desktop"]
+  },
+  "flex-layout.row#topbar-header-desk": {
+        "title": "Topbar - header - desk ",
+    "props": {
+      "blockClass": "topbar-header",
+      "fullWidth": true
+    },
+    "children": ["flex-layout.col#topbar-header-desk"]
+  },
+  "flex-layout.col#topbar-header-desk": {
+    "props": {
+      "blockClass": "topbar-header"
+    },
+    "children": ["sticky-layout#topbar-header"]
+  },
+  "sticky-layout#topbar-header": {
+    "children": ["slider-layout#topbar-header"],
+    "props": {
+      "blockClass": "sticky-topbar-header"
+    }
+  },
+  "slider-layout#topbar-header": {
+    "title": "Lista de beneficios",
+    "children": ["slider-layout#topbar-header-text-desk"]
+  },
+  "rich-text#topbar-header-1-desk": {
+    "title": "Primeiro item",
+    "props": {
+      "text": "Aproveite 5% de desconto para pagamentos via Pix",
+      "blockClass": "topbar-header-text"
+    }
+  },
+  "rich-text#topbar-header-2-desk": {
+  "title": "Segundo item",
+    "props": {
+      "text": "Frete Grátis a partir de R$249 em compras",
+      "blockClass": "topbar-header-text"
+    }
+  },
+  "rich-text#topbar-header-3-desk": {
+  "title": "Terceiro item",
+    "props": {
+      "text": "Cupom **BEMVINDO** com 10% OFF na primeira compra",
+      "blockClass": "topbar-header-text"
+    }
+  },
+  "slider-layout#topbar-header-text-desk": {
+    "children": [
+      "rich-text#topbar-header-1-desk",
+      "rich-text#topbar-header-2-desk",
+      "rich-text#topbar-header-3-desk"
+    ],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showPaginationDots": "never",
+      "fullWidth": true,
+      "blockClass": "topbar-header",
+      "showNavigationArrows": "always",
+      "autoplay": {
+        "timeout": 3500
+      }
+    }
+  },
+  "flex-layout.row#header-desktop": {
+    "props": {
+      "blockClass": "header-desktop"
+    },
+    "children": [
+      "logo#header-logo",
+      "flex-layout.row#menus",
+      "search-bar#header",
+      "flex-layout.row#icons"
+    ]
+  },
+  "flex-layout.row#menus": {
+    "props": {
+      "blockClass": "header-menu"
+    },
+    "children": [
+      "rich-text#menu-1",
+      "rich-text#menu-2",
+      "rich-text#menu-3",
+      "rich-text#menu-4",
+      "rich-text#menu-5",
+      "rich-text#menu-6",
+      "rich-text#menu-7"
+    ]
+  },
+  "rich-text#menu-1": {
+    "props": {
+      "blockClass": "text-menu",
+      "text": "Linha Casa"
+    }
+  },
+  "rich-text#menu-2": {
+    "props": {
+      "blockClass": "text-menu",
+      "text": "Cuidados Pessoais"
+    }
+  },
+  "rich-text#menu-3": {
+    "props": {
+      "blockClass": "text-menu",
+      "text": "Perfumes"
+    }
+  },
+  "rich-text#menu-4": {
+    "props": {
+      "blockClass": "text-menu",
+      "text": "Aromaterapia & Óleos"
+    }
+  },
+  "rich-text#menu-5": {
+    "props": {
+      "blockClass": "text-menu",
+      "text": "Chás"
+    }
+  },
+  "rich-text#menu-6": {
+    "props": {
+      "blockClass": "text-menu",
+      "text": "Dia dos Avós"
+    }
+  },
+  "rich-text#menu-7": {
+    "props": {
+      "blockClass": "text-menu",
+      "text": "Sale"
+    }
+  },
+  "search-bar#header": {
+    "props": {
+      "blockClass": "searchbar-header",
+      "placeholder": "Buscar itens..."
+    }
+  },
+  "flex-layout.row#icons": {
+    "props": {
+      "blockClass": "header-icons"
+    },
+    "children": [
+      "login",
+      "logo#whilist",
+      "minicart.v2"
+    ]
+  },
+  "login": {
+    "props": {
+      "emailAndPasswordTitle": "Entre com email e senha",
+      "accessCodeTitle": "Receba código de acesso por email",
+      "emailPlaceholder": "seunome@email.com",
+      "passwordPlaceholder": "Digite aqui",
+      "showPasswordVerificationIntoTooltip": true,
+      "showIconProfile": false,
+      "hideIconLabel": false,
+      "optionsTitle": ["Escolha uma opção para entrar:"]
+    }
+  },
+  "logo#whilist": {
+    "props": {
+      "blockClass": "whilist-header",
+      "href": "/",
+      "url": "https://i.ibb.co/QjYjMTc5/wishlist-header.png"
+    }
+  },
+  "logo#header-logo": {
+    "props": {
+      "blockClass": "logo-header",
+      "href": "/",
+      "url": "https://i.ibb.co/dshQxMR9/provanza-header-logo.png"
+    }
+  },
+  "drawer": {
+    "children": []
+  }
+}

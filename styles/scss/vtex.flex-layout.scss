@@ -1,0 +1,56 @@
+.flexRow {
+  &--topbar-header {
+    background-color: #3C3C3B;
+    height: 36px;
+  }
+
+  &--header-desktop {
+    height: 60px;
+    display: flex;
+    margin: 0 auto;
+    background-color: #9393931A;
+      
+    .flexRowContent {
+      &--header-desktop {
+        height: 60px;
+        align-items: center;
+        width: min-content;
+        gap: 24px;
+
+        .stretchChildrenWidth {
+          &:nth-child(even) {
+            width: auto !important;
+          }
+        }
+      }
+
+      .flexRowContent {
+        &--header-icons {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  &--header-menu {
+    .flexRowContent {
+      &--header-menu {
+        display: flex;
+        width: min-content;
+        gap: 24px;
+        
+        .stretchChildrenWidth {
+          width: min-content !important;
+          gap: 24px;
+        }
+      }
+    }
+  }
+
+  &--header-icons {
+    .flexRowContent {
+      display: flex;
+    }
+  }
+}

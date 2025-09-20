@@ -1,0 +1,31 @@
+.box {
+  .contentContainer {
+    .content {
+      &--loginOptions {
+        .contentForm {
+          .loginOptionsContainer {
+            .options {
+              .formTitle {
+                font-size: 16px;
+              }
+
+              .optionsList {
+                .optionsListItem {
+                  .button {
+                    :global(.vtex-button) {
+                      :global(.vtex-button__label) {
+                        &:nth-child {
+                          font-size: 0;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

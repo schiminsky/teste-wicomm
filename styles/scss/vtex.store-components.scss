@@ -1,0 +1,36 @@
+.logoContainer {
+  &--logo-header {
+    display: flex;
+    width: 144px;
+    padding: 0;
+    position: relative;
+    bottom: 2px;
+    left: 10px;
+
+    .stretchChildrenWidth {
+      width: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  } 
+}
+
+.searchBarContainer {
+  .searchBarInnerContainer {
+    &--searchbar-header {
+      width: 250px;
+
+      :global(.vtex-input-prefix__group) {
+        border-radius: 8px;
+        border: 1px solid #3C3C3B;
+        width: 250px;
+        height: 36px;
+
+        :global(.vtex-styleguide-9-x-input) {
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

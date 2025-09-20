@@ -1,0 +1,26 @@
+.slide {
+  .sliderTrackContainer {
+    &--topbar-header {
+      height: 36px;
+    }
+
+    .slideChildrenContainer {
+      &--topbar-header {
+        height: 36px;
+      }
+    }
+  }
+
+  .sliderLayoutContainer {
+    .sliderArrows {
+      &--topbar-header {
+        width: 70%;
+
+        .caretIcon {
+          color: #fff;
+          height: 11px;
+        }
+      }
+    }
+  }
+}
