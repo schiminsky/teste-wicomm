@@ -8,7 +8,7 @@
     height: 60px;
     display: flex;
     margin: 0 auto;
-    background-color: #9393931A;
+    background-color: #FFFFFF;
       
     .flexRowContent {
       &--header-desktop {
@@ -53,5 +53,33 @@
       display: flex;
       gap: 15px;
     }
+  }
+
+  &--blackbar-home {
+    background-color: #3C3C3B;
+    height: 62px;
+    display: flex;
+    align-items: center;
+  }
+
+  &--our-cause {
+    background-color: #3C3C3B;
+    height: 250px;
+
+    .flexCol {
+      display: flex;
+      align-items: center;
+    }
+
+    .flexRowContent {
+      &--our-cause-badges {
+        gap: 60px;
+      }
+    }
+  }
+
+  &--about-us {
+    background-color: #3C3C3B;
+    padding: 24px;
   }
 }

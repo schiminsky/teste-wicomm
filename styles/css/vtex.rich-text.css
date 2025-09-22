@@ -5,7 +5,15 @@
   align-items: center;
   white-space: nowrap;
 }
+.container--about-us-title {
+  display: flex;
+  justify-content: center;
+}
 .container .wrapper--text-menu {
+  display: flex;
+  justify-content: center;
+}
+.container .wrapper--about-us-text {
   display: flex;
   justify-content: center;
 }
@@ -21,4 +29,27 @@
   font-size: 12px;
   cursor: pointer;
   color: #3C3C3B;
+}
+.container .wrapper .paragraph--blackbar-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFFFF;
+  line-height: 18px;
+  margin: 0;
+}
+.container .wrapper .paragraph--our-cause-text {
+  color: #FFFFFF;
+  font-size: 18px;
+}
+.container .wrapper .paragraph--about-us-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #FFFFFF;
+}
+.container .wrapper .paragraph--about-us-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #FFFFFF;
+  width: 80%;
+  text-align: center;
 }

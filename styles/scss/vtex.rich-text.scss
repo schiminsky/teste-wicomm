@@ -8,8 +8,18 @@
     white-space: nowrap;
   }
 
+  &--about-us-title {
+    display: flex;
+    justify-content: center;
+  }
+
   .wrapper {
     &--text-menu {
+      display: flex;
+      justify-content: center;
+    }
+
+    &--about-us-text {
       display: flex;
       justify-content: center;
     }
@@ -28,6 +38,33 @@
         font-size: 12px;
         cursor: pointer;
         color: #3C3C3B;
+      }
+      
+      &--blackbar-text {
+        font-size: 16px;
+        font-weight: 700;
+        color: #FFFFFF;
+        line-height: 18px;
+        margin: 0;
+      }
+
+      &--our-cause-text {
+        color: #FFFFFF;
+        font-size: 18px;
+      }
+
+      &--about-us-title {
+        font-size: 24px;
+        font-weight: 700;
+        color: #FFFFFF;
+      }
+
+      &--about-us-text {
+        font-size: 16px;
+        font-weight: 400;
+        color: #FFFFFF;
+        width: 80%;
+        text-align: center;
       }
     }
   }

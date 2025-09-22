@@ -1,0 +1,10 @@
+{
+  "flex-layout.row#category-home": {
+    "props": {
+      "blockClass": "category-home"
+    },
+    "children": [
+      
+    ]
+  }
+}

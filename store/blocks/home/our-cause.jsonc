@@ -1,0 +1,62 @@
+{
+  "flex-layout.row#our-cause-home": {
+    "props": {
+      "blockClass": "our-cause"
+    },
+    "children": [
+      "flex-layout.col#our-cause-home"
+    ]
+  },
+  "flex-layout.col#our-cause-home": {
+    "props": {
+      "blockClass": "our-cause"
+    },
+    "children": [
+      "rich-text#our-cause-title",
+      "flex-layout.row#our-cause-badges"
+    ]
+  },
+  "rich-text#our-cause-title": {
+    "props": {
+      "blockClass": "our-cause-text",
+      "text": "Compromissos que fazem a diferença na sua escolha, conheça nossos selos"
+    }
+  },
+  "flex-layout.row#our-cause-badges": {
+    "props": {
+      "blockClass": "our-cause-badges"
+    },
+    "children": [
+      "image#our-cause-1",
+      "image#our-cause-2",
+      "image#our-cause-3",
+      "image#our-cause-4",
+      "image#our-cause-5"
+    ]
+  },
+  "image#our-cause-1": {
+    "props": {
+      "src": "https://i.ibb.co/5Wv9pXLB/Branco-Livre-de-parabenos-V2.png"
+    }
+  },
+  "image#our-cause-2": {
+    "props": {
+      "src": "https://i.ibb.co/1JR4p5PL/Branco-Na-o-conte-m-o-leo-mineral-V2.png"
+    }
+  },
+  "image#our-cause-3": {
+    "props": {
+      "src": "https://i.ibb.co/Y7BSW8fz/Branco-Amiga-da-prevenc-a-o.png"
+    }
+  },
+  "image#our-cause-4": {
+    "props": {
+      "src": "https://i.ibb.co/kV7m7dLS/Branco-Na-o-testado-em-animais-V2.png"
+    }
+  },
+  "image#our-cause-5": {
+    "props": {
+      "src": "https://i.ibb.co/Fb9wWdTb/Branco-Sem-BHT-V2.png"
+    }
+  }
+}

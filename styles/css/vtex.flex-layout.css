@@ -6,7 +6,7 @@
   height: 60px;
   display: flex;
   margin: 0 auto;
-  background-color: rgba(147, 147, 147, 0.1019607843);
+  background-color: #FFFFFF;
 }
 .flexRow--header-desktop .flexRowContent--header-desktop {
   height: 60px;
@@ -33,4 +33,25 @@
 .flexRow--header-icons .flexRowContent {
   display: flex;
   gap: 15px;
+}
+.flexRow--blackbar-home {
+  background-color: #3C3C3B;
+  height: 62px;
+  display: flex;
+  align-items: center;
+}
+.flexRow--our-cause {
+  background-color: #3C3C3B;
+  height: 250px;
+}
+.flexRow--our-cause .flexCol {
+  display: flex;
+  align-items: center;
+}
+.flexRow--our-cause .flexRowContent--our-cause-badges {
+  gap: 60px;
+}
+.flexRow--about-us {
+  background-color: #3C3C3B;
+  padding: 24px;
 }

@@ -1,0 +1,190 @@
+{
+  "flex-layout.row#tab-home": {
+    "title": "TabLayout",
+    "props": {
+      "blockClass": "home-tab-container"
+    },
+    "children": ["flex-layout.col#home-tabcontainer"]
+  },
+  "flex-layout.col#home-tabcontainer": {
+    "props": {
+      "blockClass": ["home-tab-layout-content", "tab-title"]
+    },
+    "children": [
+      "flex-layout.row#home-tab-title",
+      "flex-layout.row#home-tab-content"
+    ]
+  },
+  "flex-layout.row#home-tab-title": {
+    "props": {
+      "blockClass": ["home-tab-layout-content", "tab-title"]
+    },
+    "children": ["rich-text#home-tab-title"]
+  },
+  "rich-text#home-tab-title": {
+    "title": "Título - TabLayout",
+    "props": {
+      "textAlignment": "CENTER",
+      "text": "PRODUTOS MAIS VENDIDOS",
+      "blockClass": ["title-tablayout-home"]
+    }
+  },
+  "flex-layout.row#home-tab-content": {
+    "props": {
+      "blockClass": ["home-tab-layout-content", "tab-layouts-content"]
+    },
+    "children": ["tab-layout#home-tab"]
+  },
+  "tab-layout#home-tab": {
+    "children": ["tab-list#home-tab", "tab-content#home-tab"],
+    "props": {
+      "blockClass": "tab-home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "tab-list#home-tab": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2",
+      "tab-list.item#home3"
+    ]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "home1",
+      "label": "DIFUSORES"
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "home2",
+      "label": "SABONETES"
+    }
+  },
+  "tab-list.item#home3": {
+    "props": {
+      "tabId": "home3",
+      "label": "ESSÊNCIAS"
+    }
+  },
+  "tab-content#home-tab": {
+    "children": [
+      "tab-content.item#home1",
+      "tab-content.item#home2",
+      "tab-content.item#home3"
+    ]
+  },
+  "tab-content.item#home1": {
+    "children": [
+      "flex-layout.row#tablayout-content1-layout01"
+    ],
+    "props": {
+      "tabId": "home1"
+    }
+  },
+  "flex-layout.row#tablayout-content1-layout01": {
+    "title": "TabLayout 01",
+    "props": {
+      "blockClass": ["tab-content"]
+    },
+    "children": [
+      "flex-layout.col#tablayout-content-1-col1"
+    ]
+  },
+  "flex-layout.col#tablayout-content-1-col1": {
+    "children": ["list-context.product-list#shelf-tablyout-01"]
+  },
+  "list-context.product-list#shelf-tablyout-01": {
+    "title": "Shelf 01 Home - TabLayout",
+    "children": ["slider-layout#shelf-tablayout"],
+    "props": {
+      "hideUnavailableItems": false,
+      "preferredSKU": "PRICE_ASC",
+      "collection": "141"
+    }
+  },
+  "tab-content.item#home2": {
+    "children": [
+      "flex-layout.row#tablayout-content1-layout02"
+    ],
+    "props": {
+      "tabId": "home2"
+    }
+  },
+  "flex-layout.row#tablayout-content1-layout02": {
+    "title": "TabLayout 02",
+    "props": {
+      "blockClass": ["tab-content"]
+    },
+    "children": [
+      "flex-layout.col#tablayout-content-1-col2"
+    ]
+  },
+  "flex-layout.col#tablayout-content-1-col2": {
+    "children": ["list-context.product-list#shelf-tablyout-02"]
+  },
+  "list-context.product-list#shelf-tablyout-02": {
+    "title": "Shelf 02 Home - TabLayout",
+    "children": ["slider-layout#shelf-tablayout"],
+    "props": {
+      "hideUnavailableItems": false,
+      "preferredSKU": "PRICE_ASC",
+      "collection": "141"
+    }
+  },
+  "slider-layout#shelf-tablayout": {
+    "title": "Shelf TabLayout - slider config",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 12,
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": ["shelf-product", "shelf-tablayout"]
+    }
+  },
+  "tab-content.item#home3": {
+    "children": [
+      "flex-layout.row#tablayout-content1-layout03"
+    ],
+    "props": {
+      "tabId": "home3"
+    }
+  },
+  "flex-layout.row#tablayout-content1-layout03": {
+    "title": "TabLayout 03",
+    "props": {
+      "blockClass": ["tab-content"]
+    },
+    "children": [
+      "flex-layout.col#tablayout-content-1-col3"
+    ]
+  },
+  "flex-layout.col#tablayout-content-1-col3": {
+    "children": ["list-context.product-list#shelf-tablyout-03"]
+  },
+  "list-context.product-list#shelf-tablyout-03": {
+    "title": "Shelf 03 Home - TabLayout",
+    "children": ["slider-layout#shelf-tablayout"],
+    "props": {
+      "hideUnavailableItems": false,
+      "preferredSKU": "PRICE_ASC",
+      "collection": "141"
+    }
+  },
+  "product-summary.shelf#product-shlef": {
+    "children": [
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-price"
+    ],
+    "props": {
+      "blockClass": "product-shelf"
+    }
+  }
+}

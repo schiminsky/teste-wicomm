@@ -1,0 +1,32 @@
+{
+  "flex-layout.row#blackbar-home": {
+    "title": "Blackbar",
+    "props": {
+      "blockClass": "blackbar-home"
+    },
+    "children": [
+      "flex-layout.col#blackbar"
+    ]
+  },
+  "flex-layout.col#blackbar": {
+    "props": {
+      "blockClass": "blackbar"
+    },
+    "children": [
+      "rich-text#blackbar-title",
+      "rich-text#blackbar-subtitle"
+    ]
+  },
+  "rich-text#blackbar-title": {
+    "props": {
+      "blockClass": ["blackbar-title", "blackbar-text"],
+      "text": "CUIDADO E BEM-ESTAR PARA SUA CASA E SEU CORPO."
+    }
+  },
+  "rich-text#blackbar-subtitle": {
+    "props": {
+      "blockClass": ["blackbar-subtitle", "blackbar-text"],
+      "text": "Rituais que transformam a rotina e despertam os cinco sentidos. Produtos inovadores, livres de parabenos e BHT e não testados em animais."
+    }
+  }
+}

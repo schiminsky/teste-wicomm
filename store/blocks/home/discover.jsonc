@@ -1,0 +1,118 @@
+{
+  "flex-layout.row#slider-discover-home": {
+    "props": {
+      "blockClass": "discover-home"
+    },
+    "children": [
+      "slider-layout#discover"
+    ]
+  },
+  "slider-layout#discover": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 2,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.col#discover-1",
+      "flex-layout.col#discover-2",
+      "flex-layout.col#discover-3",
+      "flex-layout.col#discover-4",
+      "flex-layout.col#discover-5",
+      "flex-layout.col#discover-6"
+    ]
+  },
+  "flex-layout.col#discover-1": {
+    "children": [
+      "image#discover-1",
+      "flex-layout.col#discover-text-1"
+    ]
+  },
+  "flex-layout.col#discover-2": {
+    "children": [
+      "image#discover-2",
+      "flex-layout.col#discover-text-2"
+    ]
+  },
+  "flex-layout.col#discover-3": {
+    "children": [
+      "image#discover-1",
+      "flex-layout.col#discover-text-1"
+    ]
+  },
+  "flex-layout.col#discover-4": {
+    "children": [
+      "image#discover-2",
+      "flex-layout.col#discover-text-2"
+    ]
+  },
+  "flex-layout.col#discover-5": {
+    "children": [
+      "image#discover-1",
+      "flex-layout.col#discover-text-1"
+    ]
+  },
+  "flex-layout.col#discover-6": {
+    "children": [
+      "image#discover-2",
+      "flex-layout.col#discover-text-2"
+    ]
+  },
+  "image#discover-1": {
+    "props": {
+      "src":"https://i.ibb.co/YBPq6DcB/discover-1.png"
+    }
+  },
+  "image#discover-2": {
+    "props": {
+      "src":"https://i.ibb.co/mCd2gdcW/discover-2.png"
+    }
+  },
+  "flex-layout.col#discover-text-1": {
+  "children": [
+    "rich-text#discover-text",
+    "rich-text#discover-title-1",
+    "rich-text#discover-content-1"
+  ]
+ },
+  "rich-text#discover-text": {
+    "props": {
+      "text": "DESCUBRA",
+      "blockClass": "discover-text"
+    }
+  },
+  "rich-text#discover-title-1": {
+    "props": {
+      "text": "PARA A CASA",
+      "blockClass": "discover-title"
+    }
+  },
+  "rich-text#discover-content-1": {
+    "props": {
+      "text": "Conheça todos os produtos e fragrâncias Provanza para perfumar a sua casa: água perfumada, home spray, óleo...",
+      "blockClass": "discover-content"
+    }
+  },
+  "flex-layout.col#discover-text-2": {
+  "children": [
+    "rich-text#discover-text",
+    "rich-text#discover-title-2",
+    "rich-text#discover-content-2"
+  ]
+ },
+  "rich-text#discover-title-2": {
+    "props": {
+      "text": "PARA O CORPO"
+    }
+  },
+  "rich-text#discover-content-2": {
+    "props": {
+      "text": "Conheça todas as fragrâncias da Provanza para o corpo entre perfumes, sabonetes líquidos, refis e o discovery set."
+    }
+  }
+}

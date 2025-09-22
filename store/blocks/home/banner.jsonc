@@ -1,0 +1,31 @@
+{
+  "flex-layout.row#banner-home": {
+    "title": "Banner Principal",
+    "props": {
+      "blockClass": "banner-home"
+    },
+    "children": [
+      "list-context.image-list#banner-home"
+    ]
+  },
+  "list-context.image-list#banner-home": {
+    "title": "Banner Image",
+    "children": ["list-context-renderer#spot-image"],
+    "props": {
+      "width": "100%",
+      "height": "auto",
+      "images": [
+        {
+          "image": "https://i.ibb.co/WpkmBJST/banner-home.png",
+          "mobileImage": "https://i.ibb.co/WpkmBJST/banner-home.png"
+        }
+      ]
+    }
+  },
+  "list-context-renderer#spot-image": {
+    "props": {
+      "itemElement": "div",
+      "blockClass": "banner-spot"
+    }
+  }
+}

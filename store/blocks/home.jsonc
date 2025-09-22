@@ -1,14 +1,15 @@
 {
   "store.home": { 
     "blocks": [
-      // "flex-layout.row#blackbar-home"
-      // "flex-layout.row#tab-home-1",
-      // "flex-layout.row#slider-discover-home",
+      "flex-layout.row#banner-home",
+      "flex-layout.row#blackbar-home",
+      // "flex-layout.row#tab-home",
+      "flex-layout.row#slider-discover-home",
       // "flex-layout.row#tab-home-2",
-      // "flex-layout.row#our-cause-home",
+      "flex-layout.row#our-cause-home",
       // "flex-layout.row#gift-items-home",
-      // "flex-layout.row#about-us-home",
-      // "flex-layout.row#category-home-1",
+      "flex-layout.row#about-us-home",
+      "flex-layout.row#category-home"
       // "flex-layout.row#category-home-2",
       // "flex-layout.row#blog-posts-home"
     ]

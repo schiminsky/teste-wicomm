@@ -1,0 +1,63 @@
+{
+  "flex-layout.row#about-us-home": {
+    "props": {
+      "blockClass": "about-us"
+    },
+    "children": [
+      "slider-layout#about-us",
+      "image#banner-about-us"
+    ]
+  },
+  "slider-layout#about-us": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "carousel"
+    },
+    "children": [
+      "flex-layout.col#about-us-1",
+      "flex-layout.col#about-us-2",
+      "flex-layout.col#about-us-3"
+    ]
+  },
+  "rich-text#title-about-us": {
+    "props": {
+      "blockClass": "about-us-title",
+      "text": "Sobre a provenza"
+    }
+  },
+  "rich-text#text-about-us": {
+    "props": {
+      "blockClass": "about-us-text",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris nibh, tristique ac dui vitae, dignissim elementum metus. Etiam mollis nec lacus at pretium. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mauris nibh, tristique ac dui vitae, dignissim elementum metus. Etiam mollis nec lacus at pretium."
+    }
+  },
+  "flex-layout.col#about-us-1": {
+    "children": [
+      "rich-text#title-about-us",
+      "rich-text#text-about-us"
+    ]
+  },
+  "flex-layout.col#about-us-2": {
+    "children": [
+      "rich-text#title-about-us",
+      "rich-text#text-about-us"
+    ]
+  },
+  "flex-layout.col#about-us-3": {
+    "children": [
+      "rich-text#title-about-us",
+      "rich-text#text-about-us"
+    ]
+  },
+  "image#banner-about-us": {
+    "props": {
+      "src": "https://i.ibb.co/VhwrThd/banner-our-cause.png"
+    }
+  }
+}
