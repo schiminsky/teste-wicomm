@@ -24,3 +24,29 @@
     }
   }
 }
+
+.slideChildrenContainer {
+  &--shelf-product {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+.paginationDotsContainer {
+  .paginationDot {
+    width: 89px !important;
+    height: 1px !important;
+    border-radius: 4px;
+
+    &--isActive {
+      width: 89px !important;
+      height: 1px !important;
+      border-radius: 4px;
+      background-color: #5B445D;
+    }
+  } 
+}
+
+.paginationDotsContainer--shelf-tablayout {
+  bottom: -25px;
+}

@@ -1,7 +1,11 @@
 {
-  "store.product": {
+  "product-summary.shelf#product-shlef": {
     "children": [
-      
+      "product-summary-image",
+      "product-summary-name",
+      "product-summary-space",
+      "product-summary-price",
+      "product-summary-buy-button"
     ]
   }
 }

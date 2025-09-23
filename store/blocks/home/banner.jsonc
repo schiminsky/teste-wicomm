@@ -13,6 +13,7 @@
     "children": ["list-context-renderer#spot-image"],
     "props": {
       "width": "100%",
+      "fullWidth": true,
       "height": "auto",
       "images": [
         {

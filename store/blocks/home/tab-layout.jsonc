@@ -76,63 +76,61 @@
   },
   "tab-content.item#home1": {
     "children": [
-      "flex-layout.row#tablayout-content1-layout01"
+      "flex-layout.row#tablayout-content1"
     ],
     "props": {
       "tabId": "home1"
     }
   },
-  "flex-layout.row#tablayout-content1-layout01": {
+  "flex-layout.row#tablayout-content1": {
     "title": "TabLayout 01",
     "props": {
       "blockClass": ["tab-content"]
     },
     "children": [
-      "flex-layout.col#tablayout-content-1-col1"
+      "slider-layout#shelf-tablayout"
     ]
   },
-  "flex-layout.col#tablayout-content-1-col1": {
-    "children": ["list-context.product-list#shelf-tablyout-01"]
-  },
-  "list-context.product-list#shelf-tablyout-01": {
-    "title": "Shelf 01 Home - TabLayout",
-    "children": ["slider-layout#shelf-tablayout"],
-    "props": {
-      "hideUnavailableItems": false,
-      "preferredSKU": "PRICE_ASC",
-      "collection": "141"
-    }
-  },
-  "tab-content.item#home2": {
+
+
+
+
+    "tab-content.item#home2": {
     "children": [
-      "flex-layout.row#tablayout-content1-layout02"
+      "flex-layout.row#tablayout-content2"
     ],
     "props": {
       "tabId": "home2"
     }
   },
-  "flex-layout.row#tablayout-content1-layout02": {
+  "flex-layout.row#tablayout-content2": {
     "title": "TabLayout 02",
     "props": {
       "blockClass": ["tab-content"]
     },
     "children": [
-      "flex-layout.col#tablayout-content-1-col2"
+      "slider-layout#shelf-tablayout"
     ]
   },
-  "flex-layout.col#tablayout-content-1-col2": {
-    "children": ["list-context.product-list#shelf-tablyout-02"]
-  },
-  "list-context.product-list#shelf-tablyout-02": {
-    "title": "Shelf 02 Home - TabLayout",
-    "children": ["slider-layout#shelf-tablayout"],
+
+  "tab-content.item#home3": {
+    "children": [
+      "flex-layout.row#tablayout-content3"
+    ],
     "props": {
-      "hideUnavailableItems": false,
-      "preferredSKU": "PRICE_ASC",
-      "collection": "141"
+      "tabId": "home3"
     }
   },
-  "slider-layout#shelf-tablayout": {
+  "flex-layout.row#tablayout-content3": {
+    "title": "TabLayout 03",
+    "props": {
+      "blockClass": ["tab-content"]
+    },
+    "children": [
+      "slider-layout#shelf-tablayout"
+    ]
+  },
+    "slider-layout#shelf-tablayout": {
     "title": "Shelf TabLayout - slider config",
     "props": {
       "itemsPerPage": {
@@ -146,45 +144,138 @@
       "showNavigationArrows": "always",
       "showPaginationDots": "always",
       "blockClass": ["shelf-product", "shelf-tablayout"]
-    }
-  },
-  "tab-content.item#home3": {
-    "children": [
-      "flex-layout.row#tablayout-content1-layout03"
-    ],
-    "props": {
-      "tabId": "home3"
-    }
-  },
-  "flex-layout.row#tablayout-content1-layout03": {
-    "title": "TabLayout 03",
-    "props": {
-      "blockClass": ["tab-content"]
     },
     "children": [
-      "flex-layout.col#tablayout-content-1-col3"
+      "image#difusores-1",
+      "image#difusores-2",
+      "image#difusores-3",
+      "image#difusores-4",
+      "image#difusores-1",
+      "image#difusores-2",
+      "image#difusores-3",
+      "image#difusores-4",
+      "image#difusores-1",
+      "image#difusores-2",
+      "image#difusores-3",
+      "image#difusores-4"
     ]
   },
-  "flex-layout.col#tablayout-content-1-col3": {
-    "children": ["list-context.product-list#shelf-tablyout-03"]
-  },
-  "list-context.product-list#shelf-tablyout-03": {
-    "title": "Shelf 03 Home - TabLayout",
-    "children": ["slider-layout#shelf-tablayout"],
+  "image#difusores-1": {
     "props": {
-      "hideUnavailableItems": false,
-      "preferredSKU": "PRICE_ASC",
-      "collection": "141"
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/N6S3PXPM/vitrine-1.png"
     }
   },
-  "product-summary.shelf#product-shlef": {
-    "children": [
-      "product-summary-image",
-      "product-summary-name",
-      "product-summary-price"
-    ],
+  "image#difusores-2": {
     "props": {
-      "blockClass": "product-shelf"
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/tpgfKRc2/vitrine-2.png"
+    }
+  },
+  "image#difusores-3": {
+    "props": {
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/MkfXt7Rf/vitrine-3.png"
+    }
+  },
+  "image#difusores-4": {
+    "props": {
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/hxCpnS7y/vitrine-4.png"
     }
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // "tab-content.item#home2": {
+  //   "children": [
+  //     "flex-layout.row#tablayout-content1-layout02"
+  //   ],
+  //   "props": {
+  //     "tabId": "home2"
+  //   }
+  // },
+  // "flex-layout.row#tablayout-content1-layout02": {
+  //   "title": "TabLayout 02",
+  //   "props": {
+  //     "blockClass": ["tab-content"]
+  //   },
+  //   "children": [
+  //     "flex-layout.col#tablayout-content-1-col2"
+  //   ]
+  // },
+  // "flex-layout.col#tablayout-content-1-col2": {
+  //   "children": ["list-context.product-list#shelf-tablyout-02"]
+  // },
+  // "list-context.product-list#shelf-tablyout-02": {
+  //   "title": "Shelf 02 Home - TabLayout",
+  //   "children": ["slider-layout#shelf-tablayout"],
+  //   "props": {
+  //     "hideUnavailableItems": false,
+  //     "preferredSKU": "PRICE_ASC",
+  //     "collection": "141"
+  //   }
+  // },
+  // "slider-layout#shelf-tablayout": {
+  //   "title": "Shelf TabLayout - slider config",
+  //   "props": {
+  //     "itemsPerPage": {
+  //       "desktop": 4,
+  //       "tablet": 1,
+  //       "phone": 1
+  //     },
+  //     "arrowSize": 12,
+  //     "infinite": true,
+  //     "fullWidth": true,
+  //     "showNavigationArrows": "always",
+  //     "showPaginationDots": "always",
+  //     "blockClass": ["shelf-product", "shelf-tablayout"]
+  //   }
+  // },
+  // "tab-content.item#home3": {
+  //   "children": [
+  //     "flex-layout.row#tablayout-content1-layout03"
+  //   ],
+  //   "props": {
+  //     "tabId": "home3"
+  //   }
+  // },
+  // "flex-layout.row#tablayout-content1-layout03": {
+  //   "title": "TabLayout 03",
+  //   "props": {
+  //     "blockClass": ["tab-content"]
+  //   },
+  //   "children": [
+  //     "flex-layout.col#tablayout-content-1-col3"
+  //   ]
+  // },
+  // "flex-layout.col#tablayout-content-1-col3": {
+  //   "children": ["list-context.product-list#shelf-tablyout-03"]
+  // },
+  // "list-context.product-list#shelf-tablyout-03": {
+  //   "title": "Shelf 03 Home - TabLayout",
+  //   "children": ["slider-layout#shelf-tablayout"],
+  //   "props": {
+  //     "hideUnavailableItems": false,
+  //     "preferredSKU": "PRICE_ASC",
+  //     "collection": "141"
+  //   }
+  // }
 }

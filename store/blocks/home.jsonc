@@ -3,7 +3,7 @@
     "blocks": [
       "flex-layout.row#banner-home",
       "flex-layout.row#blackbar-home",
-      // "flex-layout.row#tab-home",
+      "flex-layout.row#tab-home",
       "flex-layout.row#slider-discover-home",
       // "flex-layout.row#tab-home-2",
       "flex-layout.row#our-cause-home",

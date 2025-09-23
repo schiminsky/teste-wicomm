@@ -5,6 +5,11 @@
   align-items: center;
   white-space: nowrap;
 }
+.container--title-tablayout-home {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+}
 .container--about-us-title {
   display: flex;
   justify-content: center;
@@ -36,6 +41,10 @@
   color: #FFFFFF;
   line-height: 18px;
   margin: 0;
+}
+.container .wrapper .paragraph--title-tablayout-home {
+  font-size: 24px;
+  font-weight: 700;
 }
 .container .wrapper .paragraph--our-cause-text {
   color: #FFFFFF;
