@@ -4,7 +4,14 @@
       "blockClass": "category-home"
     },
     "children": [
-      
+      "rich-text#category-title"
+      // "flex-layout.col#category-menu-home"
     ]
+  },
+  "rich-text#category-title": {
+    "props": {
+      "blockClass": "category-title",
+      "text": "NOSSAS CATEGORIAS"
+    }
   }
 }

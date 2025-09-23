@@ -1,0 +1,77 @@
+{
+  "flex-layout.row#gift-items-home": {
+    "props": {
+      "blockClass": ["gifts-home"]
+    },
+    "children": [
+      "flex-layout.col#gift-text",
+      "slider-layout#shelf-gifts-home"
+    ]
+  },
+  "flex-layout.col#gift-text": {
+    "props": {
+      "blockClass": "gift-text"
+    },
+    "children": [
+      "rich-text#gifts-home-title",
+      "rich-text#gifts-home-text"
+    ]
+  },
+  "rich-text#gifts-home-title": {
+    "props": {
+      "blockClass": "gifts-home-title",
+      "text": "PARA PRESENTEAR"
+    }
+  },
+  "rich-text#gifts-home-text": {
+    "props": {
+      "blockClass": "gifts-home-text",
+      "text": "Os mais vendidos do momento"
+    }
+  },
+  "slider-layout#shelf-gifts-home": {
+    "title": "Shelf TabLayout - slider config",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 12,
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": ["shelf-product", "shelf-tablayout"]
+    },
+    "children": [
+      "image#difusores-ambiente-gift-1",
+      "image#difusores-ambiente-gift-2",
+      "image#difusores-ambiente-gift-3",
+      "image#difusores-ambiente-gift-1",
+      "image#difusores-ambiente-gift-2",
+      "image#difusores-ambiente-gift-3",
+      "image#difusores-ambiente-gift-1",
+      "image#difusores-ambiente-gift-2",
+      "image#difusores-ambiente-gift-3"
+    ]
+  },
+  "image#difusores-ambiente-gift-1": {
+    "props": {
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/pvStg3MP/vitrine-6.png"
+    }
+  },
+  "image#difusores-ambiente-gift-2": {
+    "props": {
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/pvStg3MP/vitrine-6.png"
+    }
+  },
+  "image#difusores-ambiente-gift-3": {
+    "props": {
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/pvStg3MP/vitrine-6.png"
+    }
+  }
+}

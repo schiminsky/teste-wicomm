@@ -77,7 +77,8 @@
   "children": [
     "rich-text#discover-text",
     "rich-text#discover-title-1",
-    "rich-text#discover-content-1"
+    "rich-text#discover-content-1",
+    "link#see-more"
   ]
  },
   "rich-text#discover-text": {
@@ -98,21 +99,37 @@
       "blockClass": "discover-content"
     }
   },
+  "link#see-more": {
+    "title": "botao veja mais",
+    "props": {
+      "label": "Veja Mais",
+      "href": "/",
+      "displayMode": "button",
+      "buttonProps": {
+        "variant": "primary",
+        "size": "small"
+      },
+      "blockClass": "botao-veja-mais"
+    }
+  },
   "flex-layout.col#discover-text-2": {
   "children": [
     "rich-text#discover-text",
     "rich-text#discover-title-2",
-    "rich-text#discover-content-2"
+    "rich-text#discover-content-2",
+    "link#see-more"
   ]
  },
   "rich-text#discover-title-2": {
     "props": {
+      "blockClass": "discover-title",
       "text": "PARA O CORPO"
     }
   },
   "rich-text#discover-content-2": {
     "props": {
-      "text": "Conheça todas as fragrâncias da Provanza para o corpo entre perfumes, sabonetes líquidos, refis e o discovery set."
+      "text": "Conheça todas as fragrâncias da Provanza para o corpo entre perfumes, sabonetes líquidos, refis e o discovery set.",
+      "blockClass": "discover-content"
     }
   }
 }

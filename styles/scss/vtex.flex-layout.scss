@@ -66,6 +66,7 @@
       display: flex;
       justify-content: center;
       width: 100%;
+      max-width: 100%;
 
       .flexRowContent {
         margin-bottom: -4px;
@@ -87,6 +88,51 @@
 
   &--home-tab-container {
     margin-bottom: 70px;
+
+    :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+        left: 30px;
+        background-color: #fff !important;
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+        right: 30px;
+        background-color: #fff !important;
+        padding: 10px;
+        border-radius: 8px;
+      }
+  }
+
+  &--discover-home {
+    margin-bottom: 70px;
+
+    :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+        left: 30px;
+        background-color: #fff !important;
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+        right: 30px;
+        background-color: #fff !important;
+        padding: 10px;
+        border-radius: 8px;
+      }
+
+      :global(.vtex-slider-layout-0-x-sliderTrack--carousel) {
+        gap: 32px;
+      }
+
+
+    .flexColChild {
+      width: 100%;
+
+      :global(.vtex-store-components-3-x-imageElement) {
+        width: 100%;
+      }
+    }
   }
 
   &--our-cause {
@@ -108,5 +154,50 @@
   &--about-us {
     background-color: #3C3C3B;
     padding: 24px;
+
+    :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+      background-color: #fff !important;
+      padding: 10px;
+      border-radius: 8px;
+    }
+
+    :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+      background-color: #fff !important;
+      padding: 10px;
+      border-radius: 8px;
+    }
+  }
+
+  &--products-home {
+    margin-bottom: 70px;
+  }
+
+  &--gifts-home {
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+    .flexRowContent {
+      .stretchChildrenWidth {
+        &:nth-child(odd) {
+          width: 20% !important;
+        }
+
+        &:nth-child(even) {
+          width: 80% !important;
+        }
+      }
+
+      .flexColChild {
+        &:nth-child(odd) {
+          display: flex;
+          align-items: flex-end; 
+        }
+
+        &:nth-child(even) {
+          display: flex;
+          align-items: flex-start;  
+        }
+      }
+    }
   }
 }

@@ -1,0 +1,21 @@
+.listItem {
+  :global(.vtex-button) {
+    border: none;
+    padding: 12px;
+    color: #3C3C3B;
+    width: 70%;
+  }
+}
+
+.listItemActive {
+  :global(.vtex-button) {
+    border: none;
+    background-color: #fff;
+    border-bottom: solid;
+    border-color: #3C3C3B;
+    padding: 0 10px;
+    color: #3C3C3B;
+    font-weight: 600;
+    width: 70%;
+  }
+}

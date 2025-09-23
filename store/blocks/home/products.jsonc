@@ -1,0 +1,80 @@
+{
+  "flex-layout.row#products-home": {
+    "title": "Products",
+    "props": {
+      "blockClass": ["products-home"]
+    },
+    "children": [
+      "flex-layout.col#products-home"
+    ]
+  },
+  "flex-layout.col#products-home": {
+    "props": {
+      "blockClass": ["products-home"]
+    },
+    "children": [
+      "rich-text#products-home",
+      "slider-layout#shelf-products-home"
+    ]
+  },
+  "rich-text#products-home": {
+    "props": {
+      "blockClass": "products-home-title",
+      "text": "DIFUSORES DE AMBIENTE"
+    }
+  },
+  "slider-layout#shelf-products-home": {
+    "title": "Shelf TabLayout - slider config",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 12,
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": ["shelf-product", "shelf-tablayout"]
+    },
+    "children": [
+      "image#difusores-ambiente-1",
+      "image#difusores-ambiente-2",
+      "image#difusores-ambiente-3",
+      "image#difusores-ambiente-4",
+      "image#difusores-ambiente-1",
+      "image#difusores-ambiente-2",
+      "image#difusores-ambiente-3",
+      "image#difusores-ambiente-4",
+      "image#difusores-ambiente-1",
+      "image#difusores-ambiente-2",
+      "image#difusores-ambiente-3",
+      "image#difusores-ambiente-4"
+    ]
+  },
+  "image#difusores-ambiente-1": {
+    "props": {
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/QFVNdmqb/vitrine-5.png"
+    }
+  },
+  "image#difusores-ambiente-2": {
+    "props": {
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/QFVNdmqb/vitrine-5.png"
+    }
+  },
+  "image#difusores-ambiente-3": {
+    "props": {
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/QFVNdmqb/vitrine-5.png"
+    }
+  },
+  "image#difusores-ambiente-4": {
+    "props": {
+      "blockClass": "tab-images",
+      "src": "https://i.ibb.co/QFVNdmqb/vitrine-5.png"
+    }
+  }
+}

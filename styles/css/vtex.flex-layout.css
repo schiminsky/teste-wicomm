@@ -45,6 +45,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
+  max-width: 100%;
 }
 .flexRow--banner-home :global(.vtex-store-components-3-x-container) .flexRowContent {
   margin-bottom: -4px;
@@ -62,6 +63,42 @@
 .flexRow--home-tab-container {
   margin-bottom: 70px;
 }
+.flexRow--home-tab-container :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  left: 30px;
+  background-color: #fff !important;
+  padding: 10px;
+  border-radius: 8px;
+}
+.flexRow--home-tab-container :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  right: 30px;
+  background-color: #fff !important;
+  padding: 10px;
+  border-radius: 8px;
+}
+.flexRow--discover-home {
+  margin-bottom: 70px;
+}
+.flexRow--discover-home :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  left: 30px;
+  background-color: #fff !important;
+  padding: 10px;
+  border-radius: 8px;
+}
+.flexRow--discover-home :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  right: 30px;
+  background-color: #fff !important;
+  padding: 10px;
+  border-radius: 8px;
+}
+.flexRow--discover-home :global(.vtex-slider-layout-0-x-sliderTrack--carousel) {
+  gap: 32px;
+}
+.flexRow--discover-home .flexColChild {
+  width: 100%;
+}
+.flexRow--discover-home .flexColChild :global(.vtex-store-components-3-x-imageElement) {
+  width: 100%;
+}
 .flexRow--our-cause {
   background-color: #3C3C3B;
   height: 250px;
@@ -76,4 +113,35 @@
 .flexRow--about-us {
   background-color: #3C3C3B;
   padding: 24px;
+}
+.flexRow--about-us :global(.vtex-slider-layout-0-x-sliderLeftArrow) {
+  background-color: #fff !important;
+  padding: 10px;
+  border-radius: 8px;
+}
+.flexRow--about-us :global(.vtex-slider-layout-0-x-sliderRightArrow) {
+  background-color: #fff !important;
+  padding: 10px;
+  border-radius: 8px;
+}
+.flexRow--products-home {
+  margin-bottom: 70px;
+}
+.flexRow--gifts-home {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.flexRow--gifts-home .flexRowContent .stretchChildrenWidth:nth-child(odd) {
+  width: 20% !important;
+}
+.flexRow--gifts-home .flexRowContent .stretchChildrenWidth:nth-child(even) {
+  width: 80% !important;
+}
+.flexRow--gifts-home .flexRowContent .flexColChild:nth-child(odd) {
+  display: flex;
+  align-items: flex-end;
+}
+.flexRow--gifts-home .flexRowContent .flexColChild:nth-child(even) {
+  display: flex;
+  align-items: flex-start;
 }

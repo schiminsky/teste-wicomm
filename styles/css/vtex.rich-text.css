@@ -14,6 +14,13 @@
   display: flex;
   justify-content: center;
 }
+.container--discover-content {
+  width: 80%;
+}
+.container--products-home-title {
+  display: flex;
+  justify-content: center;
+}
 .container .wrapper--text-menu {
   display: flex;
   justify-content: center;
@@ -61,4 +68,37 @@
   color: #FFFFFF;
   width: 80%;
   text-align: center;
+}
+.container .wrapper .paragraph--discover-text {
+  font-size: 12px;
+  font-weight: 500;
+  color: #949494;
+  line-height: 20px;
+}
+.container .wrapper .paragraph--discover-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: #5B445D;
+  line-height: 20px;
+  margin: 0;
+}
+.container .wrapper .paragraph--discover-content {
+  font-size: 16px;
+  font-weight: 400;
+  color: #393939;
+  line-height: 20px;
+}
+.container .wrapper .paragraph--products-home-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.container .wrapper .paragraph--gifts-home-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: #5B445D;
+}
+.container .wrapper .paragraph--gifts-home-text {
+  font-size: 16px;
+  font-weight: 400;
+  color: #5B445D;
 }
