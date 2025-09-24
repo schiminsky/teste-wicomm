@@ -130,7 +130,7 @@
       "slider-layout#shelf-tablayout"
     ]
   },
-    "slider-layout#shelf-tablayout": {
+  "slider-layout#shelf-tablayout": {
     "title": "Shelf TabLayout - slider config",
     "props": {
       "itemsPerPage": {

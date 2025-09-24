@@ -9,9 +9,9 @@
       "flex-layout.row#our-cause-home",
       "flex-layout.row#gift-items-home",
       "flex-layout.row#about-us-home",
-      "flex-layout.row#category-home"
-      // "flex-layout.row#category-home-2",
-      // "flex-layout.row#blog-posts-home"
+      "flex-layout.row#category-home",
+      "flex-layout.row#category-home-2",
+      "flex-layout.row#blog-home"
     ]
   }
 }

@@ -4,14 +4,167 @@
       "blockClass": "category-home"
     },
     "children": [
-      "rich-text#category-title"
-      // "flex-layout.col#category-menu-home"
+      "flex-layout.col#category-home"
+    ]
+  },
+  "flex-layout.col#category-home": {
+    "props": {
+      "blockClass": "category-home"
+    },
+    "children": [
+      "rich-text#category-title",
+      "flex-layout.row#category-menu-home"
     ]
   },
   "rich-text#category-title": {
     "props": {
       "blockClass": "category-title",
       "text": "NOSSAS CATEGORIAS"
+    }
+  },
+  "flex-layout.row#category-menu-home": {
+    "props": {
+      "blockClass": "category-home"
+    },
+    "children": [
+      "flex-layout.col#category-menu-home-1",
+      "flex-layout.col#category-menu-home-2",
+      "flex-layout.col#category-menu-home-3",
+      "flex-layout.col#category-menu-home-4"
+    ]
+  },
+  "flex-layout.col#category-menu-home-1": {
+    "props": {
+      "blockClass": "category-home-content"
+    },
+    "children": [
+      "image#category-menu-1",
+      "rich-text#category-menu-1"
+    ]
+  },
+  "image#category-menu-1": {
+    "props": {
+      "src":"https://i.ibb.co/SwHnF0X9/aromatizadores.png"
+    }
+  },
+  "rich-text#category-menu-1": {
+    "props": {
+      "text": "AROMATIZADORES"
+    }
+  },
+  "flex-layout.col#category-menu-home-2": {
+    "props": {
+      "blockClass": "category-home-content"
+    },
+    "children": [
+      "image#category-menu-2",
+      "rich-text#category-menu-2"
+    ]
+  },
+  "image#category-menu-2": {
+    "props": {
+      "src":"https://i.ibb.co/6RMB4NVm/difusores.png"
+    }
+  },
+  "rich-text#category-menu-2": {
+    "props": {
+      "text": "DIFUSORES"
+    }
+  },
+  "flex-layout.col#category-menu-home-3": {
+    "props": {
+      "blockClass": "category-home-content"
+    },
+    "children": [
+      "image#category-menu-3",
+      "rich-text#category-menu-3"
+    ]
+  },
+  "image#category-menu-3": {
+    "props": {
+      "src":"https://i.ibb.co/DgTtfBWw/aromaterapia.png"
+    }
+  },
+  "rich-text#category-menu-3": {
+    "props": {
+      "text": "AROMATERAPIA"
+    }
+  },
+  "flex-layout.col#category-menu-home-4": {
+    "props": {
+      "blockClass": "category-home-content"
+    },
+    "children": [
+      "image#category-menu-4",
+      "rich-text#category-menu-4"
+    ]
+  },
+  "image#category-menu-4": {
+    "props": {
+      "src":"https://i.ibb.co/4QnDpjb/sabonete.png"
+    }
+  },
+  "rich-text#category-menu-4": {
+    "props": {
+      "text": "SABONETES"
+    }
+  },
+  "flex-layout.row#category-home-2": {
+    "props": {
+      "blockClass": "category-home"
+    },
+    "children": [
+      "flex-layout.col#category-home-2"
+    ]
+  },
+  "flex-layout.col#category-home-2": {
+    "props": {
+      "blockClass": "category-home"
+    },
+    "children": [
+      "rich-text#category-title-2",
+      "slider-layout#category-menu-home-2"
+    ]
+  },
+  "rich-text#category-title-2": {
+    "props": {
+      "blockClass": "category-title",
+      "text": "MAIS VENDIDOS"
+    }
+  },
+  "slider-layout#category-menu-home-2": {
+    "title": "Shelf TabLayout - slider config",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 4,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 12,
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": ["shelf-product", "shelf-tablayout"]
+    },
+    "children": [
+      "image#category-menu-2-1",
+      "image#category-menu-2-1",
+      "image#category-menu-2-1",
+      "image#category-menu-2-1",
+      "image#category-menu-2-1",
+      "image#category-menu-2-1",
+      "image#category-menu-2-1",
+      "image#category-menu-2-1",
+      "image#category-menu-2-1",
+      "image#category-menu-2-1",
+      "image#category-menu-2-1",
+      "image#category-menu-2-1"
+    ]
+  },
+  "image#category-menu-2-1": {
+    "props": {
+      "src":"https://i.ibb.co/DJT3tBb/vitrine-7.png"
     }
   }
 }

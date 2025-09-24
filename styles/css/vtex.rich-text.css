@@ -21,6 +21,10 @@
   display: flex;
   justify-content: center;
 }
+.container--category-title {
+  display: flex;
+  justify-content: center;
+}
 .container .wrapper--text-menu {
   display: flex;
   justify-content: center;
@@ -101,4 +105,9 @@
   font-size: 16px;
   font-weight: 400;
   color: #5B445D;
+}
+.container .wrapper .paragraph--category-title {
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
 }

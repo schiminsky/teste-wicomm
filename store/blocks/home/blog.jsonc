@@ -1,0 +1,62 @@
+{
+  "flex-layout.row#blog-home": {
+    "props": {
+      "blockClass": "blog-home"
+    },
+    "children": [
+      "flex-layout.col#blog-home"
+    ]
+  },
+  "flex-layout.col#blog-home": {
+    "props": {
+      "blockClass": "blog-home"
+    },
+    "children": [
+      "rich-text#blog-home",
+      "slider-layout#blog-home"
+    ]
+  },
+  "rich-text#blog-home": {
+    "props": {
+      "blockClass": "category-title",
+      "text": "BLOG PROVANZA"
+    }
+  },
+  "slider-layout#blog-home": {
+    "title": "Shelf TabLayout - slider config",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 1,
+        "phone": 1
+      },
+      "arrowSize": 12,
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "always",
+      "showPaginationDots": "always",
+      "blockClass": ["shelf-product", "shelf-tablayout"]
+    },
+    "children": [
+      "image#blog-home",
+      "image#blog-home-1",
+      "image#blog-home",
+      "image#blog-home-1",
+      "image#blog-home",
+      "image#blog-home-1",
+      "image#blog-home",
+      "image#blog-home-1"
+
+    ]
+  },
+  "image#blog-home": {
+    "props": {
+      "src":"https://i.ibb.co/B2GCyt8k/Card-Blog.png"
+    }
+  },
+  "image#blog-home-1": {
+    "props": {
+      "src":"https://i.ibb.co/hJ62SkpV/Card-Blog-2.png"
+    }
+  }
+}

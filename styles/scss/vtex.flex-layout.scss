@@ -166,6 +166,10 @@
       padding: 10px;
       border-radius: 8px;
     }
+
+    :global(.vtex-slider-layout-0-x-sliderLayoutContainer--carousel) {
+      bottom: 25px !important;
+    }
   }
 
   &--products-home {
@@ -198,6 +202,35 @@
           align-items: flex-start;  
         }
       }
+    }
+  }
+
+  &--category-home {
+    margin-top: 50px;
+
+    .flexRowContent {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+
+      .stretchChildrenWidth {
+        width: auto !important;
+
+      .flexCol {
+        &--category-home-content {
+          width: auto !important;
+        }
+      }
+    }
+    }
+  }
+
+  &--blog-home {
+    margin-top: 50px;
+    margin-bottom: 70px;
+
+    :global(.vtex-slider-layout-0-x-slideChildrenContainer--shelf-product) {
+      width: auto !important;
     }
   }
 }
