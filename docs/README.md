@@ -1,62 +1,104 @@
-# Minimum Boilerplate Theme
+# <p align="center">🛒 VTEX IO Front-end Test - Wicomm</p>
+<p align="center">
+  <strong>Projeto de implementação de Storefront utilizando VTEX IO Framework e React.js</strong>
+</p>
 
-The minimum Boilerplate Theme is basic store front model based on the VTEX IO Store Framework.
+---
 
-It should be used only when you want to start a new store theme without any pre-set configurations, as is the case with [Store Theme](https://github.com/vtex-apps/store-theme). 
+## 📝 Sobre o Projeto
+Este repositório contém o desenvolvimento de um desafio técnico focado na plataforma VTEX IO. O objetivo foi construir uma interface de e-commerce modular, utilizando as melhores práticas de Store Framework, componentização de blocos e estilização avançada.
 
-While Store Theme gives developers a ready-to-go default store front structure, the Minimum Boilerplate Theme will enable you to build you store freely from scratch.
+A arquitetura segue o padrão de SFC (Store Framework Components), garantindo uma loja performática, escalável e de fácil manutenção via Site Editor.
 
-## Configuration
+---
 
-### Step 1 -  Basic setup
+## 🛠️ Stacks Utilizadas
 
-Access the VTEX IO [basic setup guide](https://developers.vtex.com/docs/guides/vtex-io-documentation-1-basicsetup) and follow all the given steps. 
+<p align="left">
+  <img src="https://img.shields.io/badge/VTEX%20IO-F71963?style=for-the-badge&logo=vtex&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/JSONC-000000?style=for-the-badge&logo=json&logoColor=white" />
+  <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
+</p>
 
-By the end of the setup, you should have the VTEX command line interface (Toolbelt) installed along with a developer workspace you can work in.
+---
 
-### Step 2 - Cloning the Minimum Boilerplate Theme repository
+## ✨ Funcionalidades em Destaque
+* **Arquitetura Modular**: Separação clara entre blocos de header, footer, home e product page.
+* **Navegação por Abas (Tab Layout)**: Implementação de troca dinâmica entre diferentes vitrines de produtos utilizando botões de seleção, otimizando o espaço da Home.
+* **Flex Layout**: Uso extensivo de flex-layout para garantir responsividade total em todos os dispositivos.
+* **Custom Styles**: Estilização avançada via arquivos SCSS organizados por componentes (Custom Handles), garantindo fidelidade ao layout proposto.
+* **Shelf e Sliders**: Configuração de carrosséis de produtos utilizando o slider-layout com navegação fluida.
+* **Rich Text**: Construção de banners e conteúdos institucionais dinâmicos.
 
-[Clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository to your local files to be able to effectively start working on it.
+---
 
-Then, access the repository's directory using your terminal. 
+## 📂 Estrutura de Arquivos
+```bash
+├── store/
+│   └── blocks/          # Definição da estrutura da loja
+│       ├── home/        # Blocos da Home
+│       ├── footer.jsonc # Estrutura do rodapé
+│       └── header.jsonc # Estrutura do cabeçalho
+└──styles/
+   ├── configs/         # Configurações de cores e fontes
+   └── scss/            # Estilização avançada (vtex.tab-layout.scss, etc)
 
-### Step 3 - Editing the `Manifest.json`
+ ```
 
-Once in the repository directory, it is time to edit the Minimum Boilerplate `manifest.json` file. 
+---
 
-Once you are in the file, you must replace the `vendor` and `account` values. `vendor` is the account name you are working on and `account` is anything you want to name your theme. For example:
+## 🚀 Como Executar o Projeto
 
-```json
-{
-  "vendor": "storecomponents",
-  "name": "my-test-theme",
-}
+Para visualizar este projeto em um ambiente de desenvolvimento, você precisará do VTEX Toolbelt instalado.
+
+## 📋 Pré-requisitos
+Antes de começar, você precisará ter instalado em sua máquina:
+* Ter o **VTEX Toolbelt** instalado globalmente.
+* Estar logado em uma conta **VTEX** válida.
+* **Node.js** 
+* **npm** ou **Yarn**
+* Um navegador moderno para visualização (Chrome, Firefox ou Edge)
+
+---
+
+## 🛠️ Passo a Passo
+**Clonar o Repositório:**
+```bash
+  git clone https://github.com/schiminsky/teste-wicomm.git
+```
+**Instale as dependências e rode (npm):**
+```bash
+  npm install
+  npm install sass
+```
+**se preferir usar o Yarn:**
+```bash
+  yarn install
+  yarn install sass
+```
+**Fazer login na conta (Substitua pelo nome da sua conta):**
+```bash
+vtex login nome-da-conta
+```
+**Criar ou utilizar um Workspace de teste:**
+```bash
+vtex use meu-workspace-teste
+```
+**Instalar dependências e linkar o projeto:**
+```bash
+vtex link
 ```
 
-### Step 4 -  Installing required apps
+---
 
-In order to use Store Framework and work on your store theme, it is needed to have both `vtex.store-sitemap` and `vtex.store` installed.
+## 🧪 Como Testar as Funcionalidades
+* **Interatividade**: Teste a troca de vitrines clicando nos botões do tab-layout na página inicial.
+* **Responsividade**: Verifique como o flex-layout e os estilos SCSS se comportam em diferentes resoluções.
+* **Customização**: Note como os arquivos em styles/scss/ utilizam as classes nativas para aplicar o design system customizado.
 
-Run  `vtex list`  and check whether those apps are already installed. 
+---
 
-If they aren't, run the following command to install them: `vtex install vtex.store-sitemap vtex.store -f`
-
-### Step 5 -  Uninstalling any existing theme
-
-By running `vtex list`,  you can verify if any theme is installed.
-
-It is common to already have a `vtex.store-theme`  installed when you start the store's front development process. 
-
-Therefore, if you find it in the app's list, copy its name and use it together with the command `vtex uninstall`. For example:
-
-```json
-vtex uninstall vtex.store-theme
-```
-
-### Step 6- Run and preview your store
-
-Then time has come to upload all the changes you made in your local files to the platform. For that, use the `vtex link` command. 
-
-If the process runs without any errors, the following message will be displayed: `App linked successfully`. Then, run the `vtex browse` command to open a browser window having your linked store in it.
-
-This will enable you to see the applied changes in real time, through the account and workspace in which you are working.
+<p align="center">
+Desenvolvido por <strong>Claudio Schiminsky Junior</strong>
+</p>
