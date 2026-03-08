@@ -16,7 +16,6 @@ A arquitetura segue o padrão de SFC (Store Framework Components), garantindo um
 
 <p align="left">
   <img src="https://img.shields.io/badge/VTEX%20IO-F71963?style=for-the-badge&logo=vtex&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
   <img src="https://img.shields.io/badge/JSONC-000000?style=for-the-badge&logo=json&logoColor=white" />
   <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" />
 </p>
