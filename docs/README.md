@@ -77,7 +77,7 @@ Antes de começar, você precisará ter instalado em sua máquina:
   yarn install
   yarn install sass
 ```
-**Fazer login na conta (Substitua pelo nome da sua conta):**
+**Fazer login na conta:**
 ```bash
 vtex login nome-da-conta
 ```
