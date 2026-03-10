@@ -1,4 +1,5 @@
-# <p align="center">🛒 VTEX IO Front-end Test - Wicomm</p>
+---
+<h1 align="center">🛒 VTEX IO Front-end Test - Wicomm</h1>
 <p align="center">
   <strong>Projeto de implementação de Storefront utilizando VTEX IO Framework e React.js</strong>
 </p>
@@ -101,3 +102,5 @@ vtex link
 <p align="center">
 Desenvolvido por <strong>Claudio Schiminsky Junior</strong>
 </p>
+
+---
